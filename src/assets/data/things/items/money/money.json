@@ -1,0 +1,62 @@
+[
+  {
+    id: 57,
+    name: "Adena",
+    grade: "NG",
+    description: null,
+    isDrop: true,
+    isSpoil: false,
+    isCraft: false,
+    isBuying: false,
+    drop: [18342, 29001, 29006],
+    image: "adena.png"
+  },
+  {
+    id: 5575,
+    name: "Ancient Adena",
+    grade: "NG",
+    description: "Money that is circulated only within the Lords of Dawn and Revolutionaries of Dusk. It is also used when trading with the Blacksmith of Mammon.",
+    isDrop: false,
+    isSpoil: false,
+    isCraft: false,
+    isBuying: false,
+    drop: null,
+    image: "ancient_adena.png"
+  },
+  {
+    id: 6360,
+    name: "Blue Seal Stone",
+    grade: "NG",
+    description: "A fragment of an ancient seal. Collect them all. Valued at 3 Ancient Adena.",
+    isDrop: true,
+    isSpoil: false,
+    isCraft: false,
+    isBuying: false,
+    drop: [18342, 29001, 29006],
+    image: "blue_seal_stone.png"
+  },
+  {
+    id: 6361,
+    name: "Green Seal Stone",
+    description: "A fragment of an ancient seal. Collect them all. Valued at 5 Ancient Adena.",
+    grade: "NG",
+    isDrop: true,
+    isSpoil: false,
+    isCraft: false,
+    isBuying: false,
+    drop: [18342, 29001, 29006],
+    image: "green_seal_stone.png"
+  },
+  {
+    id: 6362,
+    name: "Red Seal Stone",
+    grade: "NG",
+    description: "A fragment of an ancient seal. Collect them all. Valued at 10 Ancient Adena.",
+    isDrop: true,
+    isSpoil: false,
+    isCraft: false,
+    isBuying: false,
+    drop: [18342, 29001, 29006],
+    image: "red_seal_stone.png"
+  }
+]

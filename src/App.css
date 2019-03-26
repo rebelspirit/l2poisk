@@ -1,0 +1,5 @@
+.app {
+  height: 100vh;
+  background: url('assets/images/background-classic.jpg') no-repeat;
+  background-size: contain;
+}
