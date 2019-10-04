@@ -1,0 +1,102 @@
+.monsters-container {
+    width: 100%;
+    padding: 25px;
+    color: #B0B0B0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.monsters-navigation h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.monsters-navigation nav {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+.monsters-navigation nav button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 30px;
+    background: #1f2227;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #c9c9c9;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.monsters-navigation nav button:hover {
+    background: #efb110;
+    color: #000;
+}
+.monsters-navigation .active {
+    background: #efb110;
+    color: #000;
+}
+.monsters-navigation nav button:active {
+    background-image: -webkit-linear-gradient(#efb110 0%, #efcf11 100%);
+}
+.monsters-container table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.monsters-container table th {
+    font-weight: normal;
+    border: 1px solid #1e1f22 !important;
+    background: #202125 !important;
+    color: #c9c9c9;
+    padding: 7px 0;
+}
+.monsters-container table td {
+    border: 1px solid #1e1f22 !important;
+    text-align: center;
+    padding: 5px 0;
+}
+.monsters-container table td:first-child {
+    text-align: left;
+    padding-left: 10px;
+}
+.monsters-container table td a {
+    color: #75aedc;
+    text-decoration: none;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.monsters-container table td a:hover {
+    color: #efb110;
+}
+.status-green {
+    color: #228b22;
+}
+.status-red {
+    color: #cd5c5c;
+}
+.monsters-lvl {
+    max-width: 50px;
+    min-width: 35px;
+}
+.monsters-agr {
+    max-width: 150px;
+    min-width: 90px;
+}
+.monsters-undead {
+    max-width: 150px;
+    min-width: 65px;
+}
